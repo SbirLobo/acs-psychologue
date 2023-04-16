@@ -1,0 +1,6 @@
+adresse serveur ftp =
+ftp.cluster011.hosting.ovh.net
+
+
+login ftp =
+acspsychya
