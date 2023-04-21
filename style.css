@@ -1,9 +1,9 @@
 :root {
-  color: rgb(84, 91, 84);
+  color: rgb(41, 44, 41);
 }
 @media screen and (min-width: 640px) {
   :root {
-    background-image: url("./assets/DSCN3169-1024x768.jpg");
+    background-image: url("./assets/vague_bleue.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -13,10 +13,10 @@
 a:any-link {
   cursor: pointer;
   text-decoration: none;
-  color: rgb(84, 91, 84);
+  color: rgb(41, 44, 41);
 }
 a:active {
-  color: rgb(84, 91, 84);
+  color: rgb(41, 44, 41);
 }
 a:hover {
   color: #99cc00;
@@ -201,7 +201,7 @@ header {
     border-top-style: solid;
     border-bottom-style: solid;
     border-color: rgb(216, 223, 215);
-    color: rgb(84, 91, 84);
+    color: rgb(41, 44, 41);
     display: flex;
     padding-inline: 10px;
     justify-content: space-between;
@@ -289,12 +289,12 @@ header {
 .btnup svg:hover path:nth-child(1),
 .btnup svg:active path:nth-child(1) {
   fill: #99cc00;
-  stroke: rgb(84, 91, 84);
+  stroke: rgb(41, 44, 41);
 }
 
 .btnup svg:hover path:nth-child(2),
 .btnup svg:active path:nth-child(2) {
-  fill: rgb(84, 91, 84);
+  fill: rgb(41, 44, 41);
 }
 
 /* ------ */
