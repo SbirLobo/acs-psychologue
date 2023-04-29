@@ -31,6 +31,7 @@ a:hover {
 }
 .inTextLink a {
   color: #99cc00;
+  font-weight: bold;
 }
 .inTextLink a:hover {
   text-decoration: underline;
