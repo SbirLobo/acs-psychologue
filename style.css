@@ -1,17 +1,15 @@
 @font-face {
   font-family: "Montserrat";
-  src: url("./assets/font/Montserrat-VariableFont_wght.ttf format")
-    format("truetype");
+  src: url("./assets/font/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
 
 :root {
-
   color: rgb(41, 44, 41);
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.03rem;
-
+  font-size: 19px;
 }
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 844px) {
   :root {
     background-image: url("./assets/vague_bleue.webp");
     background-repeat: no-repeat;
@@ -61,7 +59,7 @@ h2 {
 
   color: #99cc00;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 844px) {
   h1 {
     font-size: 20px;
   }
@@ -112,7 +110,7 @@ img {
 /* BODY */
 /* ---- */
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 844px) {
   body {
     margin-inline: 10%;
     background-color: white;
@@ -140,7 +138,7 @@ header {
   width: 100%;
   z-index: 99;
 }
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 844px) {
   .nav--mobile-btn {
     display: none;
   }
@@ -173,7 +171,7 @@ header {
 .nav--item {
   visibility: hidden;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 844px) {
   .nav--list {
     position: absolute;
     top: 0;
@@ -202,7 +200,7 @@ header {
   font-weight: bold;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 844px) {
   .nav--list {
     display: block;
     visibility: visible;
@@ -273,7 +271,7 @@ header {
   height: 40px;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 844px) {
   .btnup {
     transform: translate(-50%, -25%);
     bottom: 8%;
@@ -290,7 +288,7 @@ header {
   width: 40px;
   height: 40px;
 }
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 844px) {
   .btnup svg {
     width: 56px;
     height: 56px;
